@@ -4,7 +4,7 @@ Sistema de detección de fraude financiero utilizando técnicas de Machine Learn
 
 ---
 
-# 📌 Descripción del Proyecto
+# Descripción del Proyecto
 
 El fraude financiero representa uno de los mayores desafíos para bancos y plataformas de pagos digitales. Este proyecto implementa un modelo de Machine Learning capaz de detectar transacciones fraudulentas a partir de patrones históricos de comportamiento financiero.
 
@@ -17,7 +17,7 @@ utilizando técnicas de preprocesamiento, análisis exploratorio y modelos predi
 
 ---
 
-# 🧠 Objetivos
+# Objetivos
 
 * Detectar transacciones fraudulentas automáticamente.
 * Reducir falsos positivos y falsos negativos.
@@ -41,59 +41,6 @@ El proyecto utiliza un dataset de transacciones financieras que incluye variable
 | oldbalanceDest   | Balance anterior del receptor          |
 | newbalanceDest   | Balance posterior del receptor         |
 | isFraud          | Variable objetivo (fraude o no fraude) |
-
----
-
-# ⚙️ Tecnologías Utilizadas
-
-* Python
-* pandas
-* numpy
-* scikit-learn
-* matplotlib
-* seaborn
-* Jupyter Notebook
-
----
-
-# 📁 Estructura del Proyecto
-
-```bash
-Fraud-Detection-ML/
-│
-├── fraude.ipynb          # Notebook principal
-├── dataset.csv           # Dataset de transacciones
-├── requirements.txt      # Dependencias
-└── README.md             # Documentación
-```
-
----
-
-# 🔬 Metodología
-
-## 1️⃣ Preprocesamiento de Datos
-
-* Limpieza de datos
-* Eliminación de valores nulos
-* Codificación de variables categóricas
-* Escalado de variables numéricas
-
-## 2️⃣ Análisis Exploratorio (EDA)
-
-* Distribución de fraudes
-* Correlaciones
-* Visualización de patrones
-* Balanceo de clases
-
-## 3️⃣ Entrenamiento del Modelo
-
-Se evaluaron distintos algoritmos de Machine Learning:
-
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* XGBoost
-* Support Vector Machine (SVM)
 
 ---
 
@@ -144,7 +91,7 @@ Para medir el desempeño del modelo se utilizaron:
 
 ---
 
-# 🚀 Cómo Ejecutar el Proyecto
+# Cómo Ejecutar el Proyecto
 
 ## 1️⃣ Clonar el repositorio
 
@@ -167,39 +114,13 @@ jupyter notebook fraude.ipynb
 
 ---
 
-# 📚 Aprendizajes
-
-Durante este proyecto se aplicaron conceptos de:
-
-* Machine Learning supervisado
-* Clasificación binaria
-* Detección de anomalías
-* Manejo de datasets desbalanceados
-* Ingeniería de características
-* Evaluación de modelos predictivos
-
----
-
-# 🛡️ Aplicaciones Reales
-
-Este tipo de sistemas puede ser utilizado en:
-
-* Bancos
-* Fintechs
-* Plataformas de pago
-* E-commerce
-* Sistemas de seguridad financiera
-
----
-
 # 👤 Autor
 
 Salvador Hernández Juárez
 
-* GitHub: https://github.com/TU-USUARIO
+* GitHub: https://github.com/
 
 ---
 
-# ⭐ Proyecto de Machine Learning
 
 Detección Inteligente de Fraude en Transacciones Financieras utilizando técnicas de Inteligencia Artificial y Ciencia de Datos.
